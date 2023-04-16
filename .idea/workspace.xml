@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89422410-eb99-4180-8770-d6101604228c" name="Changes" comment="Navbar Design (v:0.2)">
+    <list default="true" id="89422410-eb99-4180-8770-d6101604228c" name="Changes" comment="Footer Design (v:0.3)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Footer/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Home/Home.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +66,7 @@
       <workItem from="1681634001058" duration="387000" />
       <workItem from="1681634415252" duration="342000" />
       <workItem from="1681634773525" duration="4444000" />
-      <workItem from="1681644431997" duration="2872000" />
+      <workItem from="1681644431997" duration="5895000" />
     </task>
     <task id="LOCAL-00001" summary="Second commit Message">
       <created>1681635045614</created>
@@ -89,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681645919190</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Footer Design (v:0.3)">
+      <created>1681647645660</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681647645660</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +146,7 @@
     <MESSAGE value="Second commit Message" />
     <MESSAGE value="Adding React Router (v:0.1)" />
     <MESSAGE value="Navbar Design (v:0.2)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Navbar Design (v:0.2)" />
+    <MESSAGE value="Footer Design (v:0.3)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Footer Design (v:0.3)" />
   </component>
 </project>
