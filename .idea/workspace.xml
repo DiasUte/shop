@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99daad08-973f-43dd-9085-b6f762fc8c73" name="Changes" comment="Products Page Design (v:0.6)">
+    <list default="true" id="99daad08-973f-43dd-9085-b6f762fc8c73" name="Changes" comment="Product Page Design (v:0.7)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Product/Product.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Product/Product.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Navbar/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Navbar/Navbar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Navbar/Navbar.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681668995436</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Product Page Design (v:0.7)">
+      <created>1681671540450</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1681671540450</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +207,7 @@
     <MESSAGE value="Slider for HomePage (v:0.4)" />
     <MESSAGE value="FeaturedProducts for HomePage (v:0.5)" />
     <MESSAGE value="Products Page Design (v:0.6)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Products Page Design (v:0.6)" />
+    <MESSAGE value="Product Page Design (v:0.7)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Product Page Design (v:0.7)" />
   </component>
 </project>
