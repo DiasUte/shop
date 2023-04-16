@@ -14,6 +14,7 @@ const Home = () => {
             <Categories/>
             <FeaturedProducts type={"Trending"}/>
             <Contact/>
+            // for commit
         </div>
     );
 };
