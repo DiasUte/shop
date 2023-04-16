@@ -42,7 +42,7 @@ const Footer = () => {
             </div>
             <div className={style.bottom}>
                 <div className={style.left}>
-                    <span className={style.logo}>Lamastore</span>
+                    <span className={style.logo}>UTEBAYEV</span>
                     <span className={style.copyright}>
             © Copyright 2023. All Rights Reserved
           </span>

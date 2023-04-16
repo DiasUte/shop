@@ -4,6 +4,8 @@ import "./FeaturedProducts.scss";
 
 const FeaturedProducts = ({type}) => {
 
+    // Check
+
     const data = [
         {
             id: 1,
