@@ -1,6 +1,8 @@
 import React from 'react';
 import Slider from "../../components/Silder/Slider.jsx";
 import FeaturedProducts from "../../components/FeaturedProducts/FeaturedProducts.jsx";
+import Categories from "../../components/Categories/Categories.jsx";
+import Contact from "../../components/Contact/Contact.jsx";
 
 const Home = () => {
 
@@ -9,7 +11,9 @@ const Home = () => {
         <div>
             <Slider/>
             <FeaturedProducts type={"Popular Right Now"}/>
+            <Categories/>
             <FeaturedProducts type={"Trending"}/>
+            <Contact/>
         </div>
     );
 };
