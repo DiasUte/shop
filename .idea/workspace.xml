@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99daad08-973f-43dd-9085-b6f762fc8c73" name="Changes" comment="Product Page Design (v:0.7)">
+    <list default="true" id="99daad08-973f-43dd-9085-b6f762fc8c73" name="Changes" comment="Cart Design (v:0.8)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Navbar/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Navbar/Navbar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Navbar/Navbar.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/file.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681671540450</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Cart Design (v:0.8)">
+      <created>1681674592042</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1681674592042</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +214,7 @@
     <MESSAGE value="FeaturedProducts for HomePage (v:0.5)" />
     <MESSAGE value="Products Page Design (v:0.6)" />
     <MESSAGE value="Product Page Design (v:0.7)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Product Page Design (v:0.7)" />
+    <MESSAGE value="Cart Design (v:0.8)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cart Design (v:0.8)" />
   </component>
 </project>
