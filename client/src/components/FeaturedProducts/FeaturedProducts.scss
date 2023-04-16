@@ -1,0 +1,56 @@
+.featuredProducts {
+  margin: 100px 50px;
+
+  .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+    h1 {
+      flex: 2;
+      text-transform: capitalize;
+    }
+
+    p {
+      flex: 3;
+      color: gray;
+    }
+  }
+
+  .bottom {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+    button {
+      background-color: transparent;
+      border: none;
+      font-size: 32px;
+      cursor: pointer;
+      outline: none;
+      color: gray;
+      transition: color 0.3s ease-in-out;
+
+      &:hover:not(:disabled) {
+        color: black;
+      }
+
+      &:disabled {
+        color: lightgray;
+        cursor: default;
+      }
+    }
+
+    .cardWrapper {
+      display: flex;
+      overflow-x: scroll;
+      scrollbar-width: none;
+      gap: 10px;
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
+  }
+}

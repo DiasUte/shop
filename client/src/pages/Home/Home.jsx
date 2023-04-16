@@ -1,5 +1,5 @@
 import React from 'react';
-import Slider from "../../components/Silder/Slider.jsx";
+import Slider from "../../components/Slider/Slider.jsx";
 import FeaturedProducts from "../../components/FeaturedProducts/FeaturedProducts.jsx";
 import Categories from "../../components/Categories/Categories.jsx";
 import Contact from "../../components/Contact/Contact.jsx";
