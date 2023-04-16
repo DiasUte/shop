@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89422410-eb99-4180-8770-d6101604228c" name="Changes" comment="" />
+    <list default="true" id="89422410-eb99-4180-8770-d6101604228c" name="Changes" comment="Second commit Message">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.jsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,7 +25,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2OV2AH8eqn56d7e85MBtCH9SU9x" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -59,7 +64,16 @@
       <workItem from="1681632145637" duration="1796000" />
       <workItem from="1681634001058" duration="387000" />
       <workItem from="1681634415252" duration="342000" />
+      <workItem from="1681634773525" duration="1936000" />
     </task>
+    <task id="LOCAL-00001" summary="Second commit Message">
+      <created>1681635045614</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681635045614</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,5 +120,7 @@
       <path value="$PROJECT_DIR$" />
       <path value="$PROJECT_DIR$/client" />
     </ignored-roots>
+    <MESSAGE value="Second commit Message" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second commit Message" />
   </component>
 </project>
