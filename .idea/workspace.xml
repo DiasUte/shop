@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89422410-eb99-4180-8770-d6101604228c" name="Changes" comment="Footer Design (v:0.3)">
+    <list default="true" id="89422410-eb99-4180-8770-d6101604228c" name="Changes" comment="Slider for HomePage (v:0.4)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/pages/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Home/Home.jsx" afterDir="false" />
     </list>
@@ -66,7 +66,7 @@
       <workItem from="1681634001058" duration="387000" />
       <workItem from="1681634415252" duration="342000" />
       <workItem from="1681634773525" duration="4444000" />
-      <workItem from="1681644431997" duration="5895000" />
+      <workItem from="1681644431997" duration="9049000" />
     </task>
     <task id="LOCAL-00001" summary="Second commit Message">
       <created>1681635045614</created>
@@ -96,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681647645660</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Slider for HomePage (v:0.4)">
+      <created>1681650797564</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681650797564</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +154,7 @@
     <MESSAGE value="Adding React Router (v:0.1)" />
     <MESSAGE value="Navbar Design (v:0.2)" />
     <MESSAGE value="Footer Design (v:0.3)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Footer Design (v:0.3)" />
+    <MESSAGE value="Slider for HomePage (v:0.4)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Slider for HomePage (v:0.4)" />
   </component>
 </project>
