@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99daad08-973f-43dd-9085-b6f762fc8c73" name="Changes" comment="FeaturedProducts for HomePage (v:0.5)">
+    <list default="true" id="99daad08-973f-43dd-9085-b6f762fc8c73" name="Changes" comment="Products Page Design (v:0.6)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/FeaturedProducts/FeaturedProducts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/FeaturedProducts/FeaturedProducts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Products/Products.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Products/Products.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Product/Product.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Product/Product.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +49,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\WebstormProjects\shop\client\src\pages\Product" />
       <recent name="C:\Users\user\WebstormProjects\shop\client\src\pages\Products" />
       <recent name="C:\Users\user\WebstormProjects\shop\client\src\components" />
       <recent name="C:\Users\user\WebstormProjects\shop\client\public\images" />
@@ -127,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681662006766</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Products Page Design (v:0.6)">
+      <created>1681668995436</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1681668995436</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +198,7 @@
     <MESSAGE value="Footer Design (v:0.3)" />
     <MESSAGE value="Slider for HomePage (v:0.4)" />
     <MESSAGE value="FeaturedProducts for HomePage (v:0.5)" />
-    <option name="LAST_COMMIT_MESSAGE" value="FeaturedProducts for HomePage (v:0.5)" />
+    <MESSAGE value="Products Page Design (v:0.6)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Products Page Design (v:0.6)" />
   </component>
 </project>
