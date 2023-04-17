@@ -1,33 +1,35 @@
 import React from "react";
 import style from "./Card.module.scss";
 import { Link } from "react-router-dom";
-
+const REACT_APP_UPLOAD_URL = "http://localhost:1337"
 const Card = ({ item }) => {
-  console.log(item);
   return (
-    <Link className="link" to={`/product/${item.id}`}>
-      <div className={style.card}>
-        <div className={style.image}>
-          {item?.isNew && <span>New Season</span>}
-          <img
-            src={item.img}
-            alt=""
-            className={style.mainImg}
-          />
-          <img
-            src={item.img2
-            }
-            alt=""
-            className={style.secondImg}
-          />
+      <Link className="link" to={`/product/${item.id}`}>
+        <div className={style.card}>
+          <div className={style.image}>
+            {item?.attributes.isNew && <span>New Season</span>}
+            <img
+                src={
+                   REACT_APP_UPLOAD_URL + item.attributes.img.data.attributes.url
+                }
+                alt=""
+                className={style.mainImg}
+            />
+            <img
+                src={
+                    REACT_APP_UPLOAD_URL + item.attributes.img2.data.attributes.url
+                }
+                alt=""
+                className={style.secondImg}
+            />
+          </div>
+          <h2>{item?.attributes.title}</h2>
+          <div className={style.prices}>
+            <h3>${item.oldPrice || item?.attributes.price + 20}</h3>
+            <h3>${item?.attributes.price}</h3>
+          </div>
         </div>
-        <h2>{item?.title}</h2>
-        <div className={style.prices}>
-          <h3>${item.oldPrice || item?.price + 20}</h3>
-          <h3>${item?.price}</h3>
-        </div>
-      </div>
-    </Link>
+      </Link>
   );
 };
 

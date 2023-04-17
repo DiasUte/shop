@@ -1,67 +1,36 @@
 import React, {useEffect, useRef, useState} from "react";
 import Card from "../Card/Card.jsx";
 import "./FeaturedProducts.scss";
+import axios from "axios";
+
+const REACT_APP_API_TOKEN = "4cc31aef95a3cff3791f49af907bcb7684294ad9b86ab88763c677c41aa9f7532d7b77f4565cc2a529a3faaaf8003600f641dfe9d2c054cb4c4786b920b21a6fc4b311b6c2fe58d1dd971b2c8ccc3a24043ada0e642d8e9344e320a39af1034c0f52eb8a478fd023bb160715f0e5ee3c8a0f681e9b58c36b8fa14666c44228dc";
+const REACT_APP_API_URL = "http://localhost:1337/api";
 
 const FeaturedProducts = ({type}) => {
 
-    // Check
 
-    const data = [
-        {
-            id: 1,
-            img: " https://images.pexels.com/photos/1972115/pexels-photo-1972115.jpeg?auto=compress&cs=tinysrgb&w=1600 ",
-            img2: " https://images.pexels.com/photos/1163194/pexels-photo-1163194.jpeg?auto=compress&cs=tinysrgb&w=1600 ",
-            title: "Long Sleeve Graphic T-shirt",
-            isNew: true,
-            oldPrice: 19,
-            price: 12
-        },
-        {
-            id: 2,
-            img: " https://images.pexels.com/photos/1972115/pexels-photo-1972115.jpeg?auto=compress&cs=tinysrgb&w=1600 ",
-            img2: " https://images.pexels.com/photos/1163194/pexels-photo-1163194.jpeg?auto=compress&cs=tinysrgb&w=1600 ",
-            title: "Long Sleeve Graphic T-shirt",
-            isNew: true,
-            oldPrice: 19,
-            price: 12
-        },
-        {
-            id: 3,
-            img: " https://images.pexels.com/photos/1972115/pexels-photo-1972115.jpeg?auto=compress&cs=tinysrgb&w=1600 ",
-            img2: " https://images.pexels.com/photos/1163194/pexels-photo-1163194.jpeg?auto=compress&cs=tinysrgb&w=1600 ",
-            title: "Long Sleeve Graphic T-shirt",
-            isNew: false,
-            oldPrice: 19,
-            price: 12
+    const [data, setData] = useState([])
+    useEffect(() => {
+        const fetchData = async () => {
+            try {
+                const response = await axios.get(REACT_APP_API_URL + "/products/?populate=*", {
+                    headers: {
+                        Authorization: "bearer " + REACT_APP_API_TOKEN,
+                    }
+                })
+                setData(response.data.data)
+            } catch (e) {
+                console.log(e)
+            }
         }
-        , {
-            id: 4,
-            img: " https://images.pexels.com/photos/1972115/pexels-photo-1972115.jpeg?auto=compress&cs=tinysrgb&w=1600 ",
-            img2: " https://images.pexels.com/photos/1163194/pexels-photo-1163194.jpeg?auto=compress&cs=tinysrgb&w=1600 ",
-            title: "Long Sleeve Graphic T-shirt",
-            isNew: true,
-            oldPrice: 19,
-            price: 12
-        },
-        {
-            id: 5,
-            img: " https://images.pexels.com/photos/1972115/pexels-photo-1972115.jpeg?auto=compress&cs=tinysrgb&w=1600 ",
-            img2: " https://images.pexels.com/photos/1163194/pexels-photo-1163194.jpeg?auto=compress&cs=tinysrgb&w=1600 ",
-            title: "Long Sleeve Graphic T-shirt",
-            isNew: false,
-            oldPrice: 19,
-            price: 12
-        },
-        {
-            id: 6,
-            img: " https://images.pexels.com/photos/1972115/pexels-photo-1972115.jpeg?auto=compress&cs=tinysrgb&w=1600 ",
-            img2: " https://images.pexels.com/photos/1163194/pexels-photo-1163194.jpeg?auto=compress&cs=tinysrgb&w=1600 ",
-            title: "Long Sleeve Graphic T-shirt",
-            isNew: true,
-            oldPrice: 19,
-            price: 12
-        }
-    ]
+
+        fetchData();
+    }, [])
+
+    console.log(data)
+
+    // console.log(products)
+
     const [scrollPosition, setScrollPosition] = useState(0);
     const ref = useRef();
 
@@ -80,9 +49,9 @@ const FeaturedProducts = ({type}) => {
             setScrollPosition(currentPosition);
         };
 
-        container.addEventListener("scroll", handleScroll);
+        container?.addEventListener("scroll", handleScroll);
 
-        return () => container.removeEventListener("scroll", handleScroll);
+        return () => container?.removeEventListener("scroll", handleScroll);
     }, [cards, data]);
     return (
         <div className="featuredProducts">
@@ -110,7 +79,7 @@ const FeaturedProducts = ({type}) => {
                 </button>
                 <div className="cardWrapper" ref={ref}>
                     {data.map((item) => (
-                        <Card item={item} key={item.id} />
+                        <Card item={item} key={item.id}/>
                     ))}
                 </div>
                 <button
