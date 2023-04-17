@@ -4,18 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99daad08-973f-43dd-9085-b6f762fc8c73" name="Changes" comment="Fetch data to Products, add filter (v:1.2)">
+    <list default="true" id="99daad08-973f-43dd-9085-b6f762fc8c73" name="Changes" comment="Product Page, adding Product to Cart (v:1.3)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/api/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/Cart/Cart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Cart/Cart.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Cart/Cart.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Cart/Cart.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/Navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Navbar/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Product/Product.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Product/Product.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/store/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/client/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +77,7 @@
       <workItem from="1681634415252" duration="342000" />
       <workItem from="1681634773525" duration="4444000" />
       <workItem from="1681644431997" duration="11105000" />
-      <workItem from="1681715065205" duration="11733000" />
+      <workItem from="1681715065205" duration="16181000" />
     </task>
     <task id="LOCAL-00001" summary="Second commit Message">
       <created>1681635045614</created>
@@ -180,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681723422546</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Product Page, adding Product to Cart (v:1.3)">
+      <created>1681730482983</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1681730482983</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,6 +257,7 @@
     <MESSAGE value="Adding Strapi (v:0.9)" />
     <MESSAGE value="Fetch data from Strapi (v:1.1)" />
     <MESSAGE value="Fetch data to Products, add filter (v:1.2)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fetch data to Products, add filter (v:1.2)" />
+    <MESSAGE value="Product Page, adding Product to Cart (v:1.3)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Product Page, adding Product to Cart (v:1.3)" />
   </component>
 </project>

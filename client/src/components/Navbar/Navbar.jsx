@@ -4,7 +4,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
 import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
-import {Link} from "react-router-dom";
+import {Link, useParams} from "react-router-dom";
 import engImage from "../../../public/images/en.png"
 
 import style from "./Navbar.module.scss"

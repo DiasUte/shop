@@ -3,6 +3,7 @@ import cartReducer from "./slices/cartSlice.js";
 import {FLUSH, PAUSE, PERSIST, persistReducer, persistStore, PURGE, REGISTER, REHYDRATE,} from "redux-persist";
 import storage from "redux-persist/lib/storage";
 
+
 const persistConfig = {
     key: "root",
     storage,
