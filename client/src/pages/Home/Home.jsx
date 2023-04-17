@@ -10,9 +10,9 @@ const Home = () => {
     return (
         <div>
             <Slider/>
-            <FeaturedProducts type={"Popular Right Now"}/>
+            <FeaturedProducts type={"featured"}/>
             <Categories/>
-            <FeaturedProducts type={"Trending"}/>
+            <FeaturedProducts type={"trending"}/>
             <Contact/>
         </div>
     );
