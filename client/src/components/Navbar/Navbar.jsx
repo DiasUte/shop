@@ -9,10 +9,12 @@ import engImage from "../../../public/images/en.png"
 
 import style from "./Navbar.module.scss"
 import Cart from "../Cart/Cart.jsx";
+import {useSelector} from "react-redux";
 
 const Navbar = () => {
 
     const [open, setOpen] = useState(false)
+    const products = useSelector((state) => state.cart.products);
 
     return (
         <div className={style.navbar}>
@@ -58,7 +60,7 @@ const Navbar = () => {
                         <FavoriteBorderOutlinedIcon/>
                         <div className={style.cartIcon} onClick={() => setOpen(!open)}>
                             <ShoppingCartOutlinedIcon/>
-                            <span>0</span>
+                            <span>{products.length}</span>
                         </div>
                     </div>
                 </div>

@@ -1,31 +1,15 @@
-import React from 'react';
+import React from "react";
+import "./Cart.scss";
 import DeleteOutlinedIcon from "@mui/icons-material/DeleteOutlined";
-import "./Cart.scss"
+import {useDispatch, useSelector} from "react-redux";
+import {removeItem, resetCart} from "../../store/slices/cartSlice.js";
 
+const REACT_APP_UPLOAD_URL = "http://localhost:1337"
 const Cart = () => {
+    const products = useSelector((state) => state.cart.products);
+    const dispatch = useDispatch();
 
-    const products = [
-        {
-            id: 1,
-            img: " https://images.pexels.com/photos/1972115/pexels-photo-1972115.jpeg?auto=compress&cs=tinysrgb&w=1600 ",
-            title: "Long Sleeve Graphic T-shirt",
-            isNew: true,
-            desc: "Some description",
-            quantity: 1,
-            oldPrice: 19,
-            price: 12
-        },
-        {
-            id: 2,
-            img: " https://images.pexels.com/photos/1972115/pexels-photo-1972115.jpeg?auto=compress&cs=tinysrgb&w=1600 ",
-            title: "Long Sleeve Graphic T-shirt",
-            isNew: true,
-            desc: "Some description",
-            quantity: 2,
-            oldPrice: 19,
-            price: 52
-        },
-    ]
+    // console.log(products)
 
     const totalPrice = () => {
         let total = 0;
@@ -40,17 +24,33 @@ const Cart = () => {
             <h1>Products in your cart</h1>
             {products?.map((item) => (
                 <div className="item" key={item.id}>
-                    <img src={item.img} alt=""/>
-                    <div className="details">
-                        <h1>{item.title}</h1>
-                        <p>{item.desc?.substring(0, 100)}</p>
-                        <div className="price">
-                            {item.quantity} x ${item.price}
+                    <img src={REACT_APP_UPLOAD_URL + item.img} alt=""/>
+                    {/*<div className="details">*/}
+                    {/*    <h1>{item.title}</h1>*/}
+                    {/*    <p>{item.type?.substring(0, 100)}</p>*/}
+                    {/*    <div className="price">*/}
+                    {/*        {item.quantity} x ${item.price}*/}
+                    {/*    </div>*/}
+                    {/*</div>*/}
+                    {/*<DeleteOutlinedIcon*/}
+                    {/*    className="delete"*/}
+                    {/*    onClick={() => dispatch(removeItem(item.id))}*/}
+                    {/*/>*/}
+                    <div className="content">
+                        <div className="details">
+                            <h1>{item.title}</h1>
+                            <p>{item.type?.substring(0, 100)}</p>
+                            <div className="price">
+                                {item.quantity} x ${item.price}
+                            </div>
+                        </div>
+                        <div className="delete-container">
+                            <DeleteOutlinedIcon
+                                className="delete"
+                                onClick={() => dispatch(removeItem(item.id))}
+                            />
                         </div>
                     </div>
-                    <DeleteOutlinedIcon
-                        className="delete"
-                    />
                 </div>
             ))}
             <div className="total">
@@ -58,7 +58,7 @@ const Cart = () => {
                 <span>${totalPrice()}</span>
             </div>
             <button>PROCEED TO CHECKOUT</button>
-            <span className="reset">
+            <span className="reset" onClick={() => dispatch(resetCart())}>
         Reset Cart
       </span>
         </div>

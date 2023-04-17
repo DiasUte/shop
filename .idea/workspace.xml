@@ -4,15 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99daad08-973f-43dd-9085-b6f762fc8c73" name="Changes" comment="Fetch data from Strapi (v:1.1)">
+    <list default="true" id="99daad08-973f-43dd-9085-b6f762fc8c73" name="Changes" comment="Fetch data to Products, add filter (v:1.2)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Card/Card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Card/Card.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/FeaturedProducts/FeaturedProducts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/FeaturedProducts/FeaturedProducts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/List/List.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/List/List.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Cart/Cart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Cart/Cart.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Cart/Cart.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Cart/Cart.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/Navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Navbar/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/hooks/useFetch.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/hooks/useFetch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Home/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Products/Products.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Products/Products.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Product/Product.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Product/Product.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/client/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +80,7 @@
       <workItem from="1681634415252" duration="342000" />
       <workItem from="1681634773525" duration="4444000" />
       <workItem from="1681644431997" duration="11105000" />
-      <workItem from="1681715065205" duration="6328000" />
+      <workItem from="1681715065205" duration="11733000" />
     </task>
     <task id="LOCAL-00001" summary="Second commit Message">
       <created>1681635045614</created>
@@ -170,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681716291199</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Fetch data to Products, add filter (v:1.2)">
+      <created>1681723422546</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1681723422546</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,6 +252,7 @@
     <MESSAGE value="Cart Design (v:0.8)" />
     <MESSAGE value="Adding Strapi (v:0.9)" />
     <MESSAGE value="Fetch data from Strapi (v:1.1)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fetch data from Strapi (v:1.1)" />
+    <MESSAGE value="Fetch data to Products, add filter (v:1.2)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fetch data to Products, add filter (v:1.2)" />
   </component>
 </project>
